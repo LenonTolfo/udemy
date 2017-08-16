@@ -19,13 +19,5 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botaoEmpresa = (ImageView) findViewById(R.id.empresaId);
-
-        botaoEmpresa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                startActivity(new Intent(MainActivity.this,EmpresaActivity.class));
-            }
-        });
     }
 }
